@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0B4EA2">
+
+  <title>Cabinet Fiduciaire de l'Ouest | Comptabilité, fiscalité et conseil à Bafoussam</title>
+  <meta name="description" content="Le Cabinet Fiduciaire de l'Ouest accompagne entreprises et particuliers à Bafoussam : comptabilité, fiscalité, paie, conseil et conformité SYSCOHADA. Une équipe engagée à vos côtés.">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <!-- Adresse de l'API publique des avis (vide = avis transmis par WhatsApp jusqu'au branchement) -->
+  <meta name="avis-api" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.pexels.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lavishly+Yours&family=Luxurious+Roman&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <noscript>
+    <style>
+      [data-reveal]{opacity:1 !important;transform:none !important;clip-path:none !important;filter:none !important}
+      .hero__mot,.hero__apparition{opacity:1 !important;transform:none !important;filter:none !important;clip-path:none !important}
+    </style>
+  </noscript>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AccountingService",
+    "name": "Cabinet Fiduciaire de l'Ouest",
+    "description": "Cabinet fiduciaire : comptabilité, fiscalité, conseil, paie et audit à Bafoussam, Cameroun.",
+    "email": "simeufossouoaubin@yahoo.fr",
+    "telephone": "+237690350260",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bafoussam",
+      "addressCountry": "CM"
+    },
+    "areaServed": "Cameroun",
+    "knowsLanguage": "fr"
+  }
+  </script>
+</head>
+<body>
+  <a class="evitement" href="#contenu">Aller au contenu</a>
+
+  <div class="progression" aria-hidden="true"><span class="progression__barre" id="progression"></span></div>
+
+  <header class="entete" id="entete">
+    <div class="entete__inner">
+      <a class="logo" href="#accueil" aria-label="Cabinet Fiduciaire de l'Ouest, accueil">
+        <img class="logo__img" src="assets/logo-horizontal.svg" alt="Cabinet Fiduciaire de l'Ouest" width="660" height="165">
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <ul class="nav__liste">
+          <li><a class="nav__lien" href="#accueil">Accueil</a></li>
+          <li><a class="nav__lien" href="#cabinet">Le cabinet</a></li>
+          <li><a class="nav__lien" href="#services">Services</a></li>
+          <li><a class="nav__lien" href="#methode">Méthode</a></li>
+          <li><a class="nav__lien" href="#avis">Avis</a></li>
+          <li><a class="nav__lien" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--bleu entete__cta" href="#contact">
+        Nous contacter
+        <svg class="btn__fleche" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu-mobile" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="menu-mobile" id="menu-mobile" hidden>
+      <nav aria-label="Navigation mobile">
+        <ul class="menu-mobile__liste">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#cabinet">Le cabinet</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#methode">Méthode</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--or" href="#contact">Demander un entretien</a>
+      <p class="menu-mobile__coord">Bafoussam · Cameroun · simeufossouoaubin@yahoo.fr</p>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- ==================== HÉROS ==================== -->
+    <section class="heros" id="accueil">
+      <div class="heros__inner page">
+        <div class="heros__texte">
+          <p class="eyebrow hero__apparition" style="--delai:.1s">Comptabilité · Fiscalité · Conseil</p>
+
+          <p class="script script--or hero__apparition" style="--delai:.25s">La confiance au service de vos projets</p>
+
+          <h1 class="heros__titre">
+            <span class="ligne"><span class="hero__mot" style="--delai:.35s">La maîtrise de vos comptes,</span></span>
+            <span class="ligne"><span class="hero__mot" style="--delai:.5s">la <em>sérénité</em> de vos décisions</span></span>
+          </h1>
+
+          <p class="heros__lead hero__apparition" style="--delai:.7s">
+            Le Cabinet Fiduciaire de l'Ouest accompagne dirigeants, entreprises et particuliers
+            à Bafoussam. Une équipe rigoureuse pour votre comptabilité, votre fiscalité
+            et le pilotage de votre activité.
+          </p>
+
+          <div class="heros__boutons hero__apparition" style="--delai:.85s">
+            <a class="btn btn--bleu" href="#contact">
+              Demander un entretien
+              <svg class="btn__fleche" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn--fantome-bleu" href="#services">Découvrir nos services</a>
+          </div>
+        </div>
+
+        <div class="heros__visuel">
+          <span class="heros__panneau" data-reveal="scale" aria-hidden="true"></span>
+          <span class="heros__halo" aria-hidden="true"></span>
+
+          <figure class="heros__photo heros__photo--principale" data-reveal="scale">
+            <img src="https://images.pexels.com/photos/20552572/pexels-photo-20552572.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                 alt="Bureau lumineux équipé d'un ordinateur portable, d'une calculatrice et de documents comptables"
+                 width="1400" height="933" fetchpriority="high">
+          </figure>
+
+          <figure class="heros__photo heros__photo--secondaire" data-reveal="scale" style="--i:2">
+            <img src="https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=900"
+                 alt="Un conseiller écoute un client lors d'un entretien"
+                 width="900" height="600" loading="lazy" decoding="async">
+          </figure>
+
+          <div class="heros__plaque" data-reveal style="--i:3">
+            <span class="heros__anneau" aria-hidden="true"></span>
+            <img src="assets/logo-vertical.svg"
+                 alt="Logo vertical du Cabinet Fiduciaire de l'Ouest : écusson, CFO, Cabinet Fiduciaire de l'Ouest"
+                 width="440" height="400">
+          </div>
+
+          <a class="heros__badge" href="https://wa.me/237690350260" target="_blank" rel="noopener" data-reveal style="--i:4">
+            <span class="heros__badge-icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 16.5v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.7 2 2 0 0 1 3.1 1.5h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L7.1 9.4a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2.1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span class="heros__badge-texte">
+              <span class="heros__badge-label">WhatsApp direct</span>
+              <span class="heros__badge-num">690 35 02 60</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="heros__cartes-zone">
+          <ul class="heros__cartes hero__apparition" style="--delai:1s">
+            <li class="heros__carte">
+              <span class="heros__carte-icone" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3l7 2.6v5.2c0 4.3-2.9 7.6-7 8.9-4.1-1.3-7-4.6-7-8.9V5.6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 11.8l2.2 2.2 4-4.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <span class="heros__carte-titre">SYSCOHADA</span>
+              <span class="heros__carte-texte">États financiers au référentiel révisé.</span>
+            </li>
+            <li class="heros__carte">
+              <span class="heros__carte-icone" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.4V12l3.2 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </span>
+              <span class="heros__carte-titre">Réponse sous 24 h</span>
+              <span class="heros__carte-texte">Chaque demande reçoit un retour rapide.</span>
+            </li>
+            <li class="heros__carte">
+              <span class="heros__carte-icone" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+              </span>
+              <span class="heros__carte-titre">Bafoussam</span>
+              <span class="heros__carte-texte">Un cabinet de proximité, à votre écoute.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== BANDEAU DÉFILANT ==================== -->
+    <div class="bandeau" aria-hidden="true">
+      <div class="bandeau__piste">
+        <span class="bandeau__groupe">Comptabilité · Fiscalité · Conseil · Paie et social · Audit · SYSCOHADA · Déclarations · Création d'entreprise · États financiers ·</span>
+        <span class="bandeau__groupe">Comptabilité · Fiscalité · Conseil · Paie et social · Audit · SYSCOHADA · Déclarations · Création d'entreprise · États financiers ·</span>
+      </div>
+    </div>
+
+    <!-- ==================== LE CABINET ==================== -->
+    <section class="section section--blanc" id="cabinet">
+      <div class="page grille-cabinet">
+        <div class="cabinet__texte">
+          <p class="eyebrow" data-reveal>Le cabinet</p>
+          <h2 class="titre" data-reveal style="--i:1">Une expertise locale, <br>une exigence d'exception</h2>
+          <p class="script script--or" data-reveal style="--i:2">Fiduciaire de l'Ouest</p>
+
+          <div class="cabinet__paragraphes">
+            <p data-reveal style="--i:3">
+              Implanté à Bafoussam, le Cabinet Fiduciaire de l'Ouest met à votre disposition
+              des professionnels dévoués pour la tenue de vos comptes, le respect de vos
+              échéances fiscales et le pilotage serein de votre activité.
+            </p>
+            <p data-reveal style="--i:4">
+              Notre approche allie précision comptable, veille réglementaire et écoute
+              attentive. Chaque dossier reçoit la même rigueur, qu'il s'agisse d'une jeune
+              structure ou d'une entreprise établie.
+            </p>
+          </div>
+
+          <ul class="cabinet__points">
+            <li data-reveal style="--i:5">Un interlocuteur unique pour tous vos dossiers</li>
+            <li data-reveal style="--i:6">Des délais tenus, des échéances anticipées</li>
+            <li data-reveal style="--i:7">Des conseils clairs, sans jargon inutile</li>
+          </ul>
+        </div>
+
+        <div class="cabinet__media">
+          <figure class="cabinet__photo" data-reveal="scale" style="--i:2">
+            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                 alt="Réunion de travail entre professionnels autour d'une table"
+                 width="1400" height="933" loading="lazy" decoding="async">
+          </figure>
+
+          <aside class="fiche" data-reveal style="--i:3" aria-label="Présentation du cabinet">
+            <p class="fiche__titre">Le cabinet en bref</p>
+            <dl class="fiche__liste">
+              <div class="fiche__ligne">
+                <dt>Localisation</dt>
+                <dd>Bafoussam, Cameroun</dd>
+              </div>
+              <div class="fiche__ligne">
+                <dt>Domaines</dt>
+                <dd>Comptabilité, fiscalité, conseil</dd>
+              </div>
+              <div class="fiche__ligne">
+                <dt>Email</dt>
+                <dd><a href="mailto:simeufossouoaubin@yahoo.fr">simeufossouoaubin@yahoo.fr</a></dd>
+              </div>
+              <div class="fiche__ligne">
+                <dt>WhatsApp</dt>
+                <dd><a href="https://wa.me/237690350260">690 35 02 60</a> · <a href="https://wa.me/237676357345">676 35 73 45</a></dd>
+              </div>
+              <div class="fiche__ligne">
+                <dt>Contribuable</dt>
+                <dd>P089114582338C</dd>
+              </div>
+            </dl>
+            <p class="fiche__signature">Cabinet Fiduciaire de l'Ouest</p>
+          </aside>
+        </div>
+      </div>
+
+      <div class="page compteurs" data-groupe-compteurs>
+        <div class="compteur" data-reveal style="--i:0">
+          <span class="compteur__valeur"><span data-count="3">0</span></span>
+          <span class="compteur__legende">pôles d'expertise</span>
+        </div>
+        <div class="compteur" data-reveal style="--i:1">
+          <span class="compteur__valeur"><span data-count="4">0</span></span>
+          <span class="compteur__legende">étapes de méthode</span>
+        </div>
+        <div class="compteur" data-reveal style="--i:2">
+          <span class="compteur__valeur"><span data-count="24" data-suffix=" h">0</span></span>
+          <span class="compteur__legende">pour vous répondre</span>
+        </div>
+        <div class="compteur" data-reveal style="--i:3">
+          <span class="compteur__valeur"><span data-count="100" data-suffix=" %">0</span></span>
+          <span class="compteur__legende">conforme SYSCOHADA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES ==================== -->
+    <section class="section section--bleu" id="services">
+      <div class="page">
+        <header class="section__entete">
+          <p class="eyebrow eyebrow--or" data-reveal>Nos services</p>
+          <h2 class="titre titre--clair" data-reveal style="--i:1">Des solutions concrètes pour chaque étape de votre activité</h2>
+          <p class="section__intro" data-reveal style="--i:2">
+            De la tenue quotidienne de vos comptes aux décisions stratégiques,
+            nous couvrons l'ensemble de vos besoins fiduciaires.
+          </p>
+        </header>
+
+        <figure class="bandeau-photo" data-reveal="masque" style="--i:3">
+          <img src="https://images.pexels.com/photos/33175673/pexels-photo-33175673.jpeg?auto=compress&cs=tinysrgb&w=1400"
+               alt="Documents financiers, calculatrice et lunettes posés sur un bureau"
+               width="1400" height="933" loading="lazy" decoding="async">
+        </figure>
+
+        <div class="cartes">
+          <article class="carte" data-reveal style="--i:0">
+            <span class="carte__num">01</span>
+            <h3 class="carte__titre">Tenue de comptabilité</h3>
+            <p class="carte__texte">Saisie, rapprochements bancaires et établissement de vos états financiers selon le référentiel SYSCOHADA.</p>
+            <span class="carte__ligne" aria-hidden="true"></span>
+          </article>
+
+          <article class="carte" data-reveal style="--i:1">
+            <span class="carte__num">02</span>
+            <h3 class="carte__titre">Déclarations fiscales</h3>
+            <p class="carte__texte">Préparation et dépôt de vos déclarations, suivi des échéances et accompagnement en cas de contrôle.</p>
+            <span class="carte__ligne" aria-hidden="true"></span>
+          </article>
+
+          <article class="carte" data-reveal style="--i:2">
+            <span class="carte__num">03</span>
+            <h3 class="carte__titre">Conseil et accompagnement</h3>
+            <p class="carte__texte">Analyse de vos comptes, prévisionnel et recommandations pour éclairer chaque décision importante.</p>
+            <span class="carte__ligne" aria-hidden="true"></span>
+          </article>
+
+          <article class="carte" data-reveal style="--i:3">
+            <span class="carte__num">04</span>
+            <h3 class="carte__titre">Paie et social</h3>
+            <p class="carte__texte">Bulletins de paie, charges sociales et déclarations auprès des organismes compétents.</p>
+            <span class="carte__ligne" aria-hidden="true"></span>
+          </article>
+
+          <article class="carte" data-reveal style="--i:4">
+            <span class="carte__num">05</span>
+            <h3 class="carte__titre">Création d'entreprise</h3>
+            <p class="carte__texte">Constitution des dossiers, immatriculation OHADA et mise en place de votre organisation comptable.</p>
+            <span class="carte__ligne" aria-hidden="true"></span>
+          </article>
+
+          <article class="carte" data-reveal style="--i:5">
+            <span class="carte__num">06</span>
+            <h3 class="carte__titre">Révision et contrôle</h3>
+            <p class="carte__texte">Vérification de vos comptes, sécurisation des opérations et préparation des dossiers de contrôle.</p>
+            <span class="carte__ligne" aria-hidden="true"></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MÉTHODE ==================== -->
+    <section class="section section--ivoire" id="methode">
+      <div class="page">
+        <div class="methode__haut">
+          <figure class="methode__photo" data-reveal="scale">
+            <img src="https://images.pexels.com/photos/9489074/pexels-photo-9489074.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                 alt="Équipe analysant des documents de travail pour préparer un plan d'action"
+                 width="1400" height="933" loading="lazy" decoding="async">
+          </figure>
+
+          <header class="section__entete section__entete--fin">
+            <p class="eyebrow" data-reveal>Notre méthode</p>
+            <h2 class="titre" data-reveal style="--i:1">Un accompagnement clair, de l'écoute au suivi</h2>
+            <p class="section__intro" data-reveal style="--i:2">
+              Quatre étapes simples pour une relation durable et sans mauvaise surprise.
+            </p>
+          </header>
+        </div>
+
+        <ol class="etapes">
+          <li class="etape" data-reveal style="--i:0">
+            <span class="etape__num">01</span>
+            <h3 class="etape__titre">Écoute</h3>
+            <p>Nous prenons le temps de comprendre votre activité, vos objectifs et vos échéances.</p>
+          </li>
+          <li class="etape" data-reveal style="--i:1">
+            <span class="etape__num">02</span>
+            <h3 class="etape__titre">Diagnostic</h3>
+            <p>Nous analysons votre situation comptable et fiscale pour en dégager les priorités.</p>
+          </li>
+          <li class="etape" data-reveal style="--i:2">
+            <span class="etape__num">03</span>
+            <h3 class="etape__titre">Exécution</h3>
+            <p>Nous établissons vos états, déclarations et rapports dans les délais convenus.</p>
+          </li>
+          <li class="etape" data-reveal style="--i:3">
+            <span class="etape__num">04</span>
+            <h3 class="etape__titre">Suivi</h3>
+            <p>Vous gardez un interlocuteur disponible et des conseils au fil de l'eau.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ==================== AVIS ==================== -->
+    <section class="section section--bleu" id="avis">
+      <div class="page">
+        <header class="section__entete section__entete--centre">
+          <p class="eyebrow eyebrow--or" data-reveal>Ils nous font confiance</p>
+          <h2 class="titre titre--clair" data-reveal style="--i:1">La confiance se construit dossier après dossier</h2>
+        </header>
+
+        <!-- Avis d'exemple à remplacer par de vrais témoignages -->
+        <div class="avis" id="liste-avis">
+          <figure class="avis__carte" data-reveal style="--i:0">
+            <span class="avis__guillemet" aria-hidden="true">“</span>
+            <blockquote>
+              <p>Un accompagnement rigoureux et humain. Nos comptes sont à jour, nos déclarations
+              dans les délais, et nous avons enfin une vision claire de notre activité.</p>
+            </blockquote>
+            <figcaption class="avis__signature">
+              <img class="avis__avatar"
+                   src="https://images.pexels.com/photos/7490840/pexels-photo-7490840.jpeg?auto=compress&cs=tinysrgb&w=900"
+                   alt="" width="900" height="600" loading="lazy" decoding="async">
+              <span>
+                <span class="avis__auteur">Dirigeante de PME</span>
+                <span class="avis__lieu">Bafoussam</span>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="avis__carte" data-reveal style="--i:1">
+            <span class="avis__guillemet" aria-hidden="true">“</span>
+            <blockquote>
+              <p>Nous avons créé notre entreprise sans perdre un jour. Chaque étape a été expliquée
+              avec patience, et les réponses arrivent toujours rapidement.</p>
+            </blockquote>
+            <figcaption class="avis__signature">
+              <img class="avis__avatar"
+                   src="https://images.pexels.com/photos/6285069/pexels-photo-6285069.jpeg?auto=compress&cs=tinysrgb&w=900"
+                   alt="" width="900" height="600" loading="lazy" decoding="async">
+              <span>
+                <span class="avis__auteur">Entrepreneur</span>
+                <span class="avis__lieu">Région de l'Ouest</span>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="avis__bas" data-reveal style="--i:2">
+          <button class="btn btn--or" type="button" id="ouvrir-avis" aria-expanded="false" aria-controls="panneau-avis">
+            Laisser un avis
+            <svg class="btn__fleche" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <p class="avis__mention">
+            Aucun avis n'est fabriqué : chaque témoignage vient d'un client du cabinet
+            et n'est publié qu'après vérification par nos soins.
+          </p>
+        </div>
+
+        <div class="panneau-avis" id="panneau-avis" hidden>
+          <form class="formulaire formulaire--avis" id="form-avis" novalidate>
+            <p class="formulaire__titre">Partagez votre expérience</p>
+
+            <div class="champ-duo">
+              <div class="champ">
+                <label for="avis-nom">Votre nom</label>
+                <input type="text" id="avis-nom" name="nom" placeholder="Ex. Marceline N." autocomplete="name" aria-describedby="erreur-avis-nom" required>
+                <p class="champ__erreur" id="erreur-avis-nom" hidden></p>
+              </div>
+              <div class="champ">
+                <label for="avis-profil">Votre situation</label>
+                <input type="text" id="avis-profil" name="profil" placeholder="Ex. Commerçante à Bafoussam" aria-describedby="erreur-avis-profil" required>
+                <p class="champ__erreur" id="erreur-avis-profil" hidden></p>
+              </div>
+            </div>
+
+            <div class="champ champ--note" id="groupe-note">
+              <span class="champ__titre" id="note-label">Votre note</span>
+              <div class="note" role="radiogroup" aria-labelledby="note-label" aria-describedby="erreur-avis-note">
+                <label class="note__etoile">
+                  <input type="radio" name="note" value="1" aria-label="1 sur 5">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.4l2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 9.9l6.1-.9z"/></svg>
+                </label>
+                <label class="note__etoile">
+                  <input type="radio" name="note" value="2" aria-label="2 sur 5">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.4l2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 9.9l6.1-.9z"/></svg>
+                </label>
+                <label class="note__etoile">
+                  <input type="radio" name="note" value="3" aria-label="3 sur 5">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.4l2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 9.9l6.1-.9z"/></svg>
+                </label>
+                <label class="note__etoile">
+                  <input type="radio" name="note" value="4" aria-label="4 sur 5">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.4l2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 9.9l6.1-.9z"/></svg>
+                </label>
+                <label class="note__etoile">
+                  <input type="radio" name="note" value="5" aria-label="5 sur 5">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.4l2.7 5.6 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1L3.2 9.9l6.1-.9z"/></svg>
+                </label>
+              </div>
+              <p class="champ__erreur" id="erreur-avis-note" hidden></p>
+            </div>
+
+            <div class="champ">
+              <label for="avis-texte">Votre commentaire</label>
+              <textarea id="avis-texte" name="texte" rows="4" placeholder="Ce que le cabinet a changé pour vous…" aria-describedby="erreur-avis-texte" required></textarea>
+              <p class="champ__erreur" id="erreur-avis-texte" hidden></p>
+            </div>
+
+            <div class="champ champ--case">
+              <input type="checkbox" id="avis-accord" name="accord" aria-describedby="erreur-avis-accord" required>
+              <label for="avis-accord">J'atteste que ce témoignage reflète réellement mon expérience avec le cabinet</label>
+              <p class="champ__erreur" id="erreur-avis-accord" hidden></p>
+            </div>
+
+            <button class="btn btn--bleu btn--large" type="submit">
+              Envoyer mon avis
+              <svg class="btn__fleche" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+
+            <p class="formulaire__note">Avis vérifié avant publication. Aucun avis ne vous est attribué sans votre accord.</p>
+          </form>
+
+          <div class="confirmation" id="confirmation-avis" hidden>
+            <span class="confirmation__rond" aria-hidden="true">
+              <svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24" fill="none"/><path d="M15 27l8 8 15-16" fill="none"/></svg>
+            </span>
+            <p class="confirmation__titre">Merci pour votre avis</p>
+            <p class="confirmation__texte" id="confirmation-avis-texte"></p>
+            <div class="confirmation__liens" id="confirmation-avis-liens">
+              <a class="btn btn--bleu" id="lien-avis-whatsapp" href="https://wa.me/237690350260" target="_blank" rel="noopener">Continuer sur WhatsApp</a>
+            </div>
+            <button class="confirmation__retour" type="button" id="fermer-avis">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="section section--blanc" id="contact">
+      <div class="page grille-contact">
+        <div class="contact__intro">
+          <p class="eyebrow" data-reveal>Contact</p>
+          <h2 class="titre" data-reveal style="--i:1">Parlons de votre projet</h2>
+          <p class="script script--or" data-reveal style="--i:2">Dès aujourd'hui</p>
+          <p class="contact__texte" data-reveal style="--i:3">
+            Décrivez votre besoin en quelques lignes. Notre équipe vous répond
+            sous 24 heures ouvrées pour convenir d'un entretien.
+          </p>
+
+          <figure class="contact__photo" data-reveal="scale" style="--i:4">
+            <img src="https://images.pexels.com/photos/33263702/pexels-photo-33263702.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                 alt="Façade d'un immeuble de bureaux moderne"
+                 width="1400" height="933" loading="lazy" decoding="async">
+          </figure>
+
+          <ul class="coord" data-reveal style="--i:5">
+            <li class="coord__item">
+              <span class="coord__icone" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11A1.5 1.5 0 0 1 19.5 19h-15A1.5 1.5 0 0 1 3 17.5zM3.5 7l8.5 6 8.5-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <span>
+                <span class="coord__label">Email</span>
+                <a href="mailto:simeufossouoaubin@yahoo.fr">simeufossouoaubin@yahoo.fr</a>
+              </span>
+            </li>
+            <li class="coord__item">
+              <span class="coord__icone" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M21 16.5v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.7 2 2 0 0 1 3.1 1.5h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L7.1 9.4a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2.1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <span>
+                <span class="coord__label">WhatsApp et téléphone</span>
+                <a href="https://wa.me/237690350260">690 35 02 60</a> · <a href="https://wa.me/237676357345">676 35 73 45</a>
+              </span>
+            </li>
+            <li class="coord__item">
+              <span class="coord__icone" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+              </span>
+              <span>
+                <span class="coord__label">Adresse</span>
+                <a href="https://www.google.com/maps/search/?api=1&query=Bafoussam%20Cameroun" target="_blank" rel="noopener">Bafoussam, Cameroun · voir sur Google Maps</a>
+              </span>
+            </li>
+            <li class="coord__item">
+              <span class="coord__icone" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 3v4h4M10 12h5M10 16h5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </span>
+              <span>
+                <span class="coord__label">Contribuable</span>
+                <span>P089114582338C</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact__boite" data-reveal="scale" style="--i:2">
+          <form class="formulaire" id="form-contact" novalidate>
+            <p class="formulaire__titre">Écrivez au cabinet</p>
+
+            <div class="champ">
+              <label for="nom">Nom et prénom</label>
+              <input type="text" id="nom" name="nom" autocomplete="name" placeholder="Votre nom complet" aria-describedby="erreur-nom" required>
+              <p class="champ__erreur" id="erreur-nom" hidden></p>
+            </div>
+
+            <div class="champ-duo">
+              <div class="champ">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="telephone" autocomplete="tel" placeholder="6XX XX XX XX" aria-describedby="erreur-telephone" required>
+                <p class="champ__erreur" id="erreur-telephone" hidden></p>
+              </div>
+              <div class="champ">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="vous@exemple.com" aria-describedby="erreur-email" required>
+                <p class="champ__erreur" id="erreur-email" hidden></p>
+              </div>
+            </div>
+
+            <div class="champ">
+              <label for="service">Service concerné</label>
+              <div class="champ__select">
+                <select id="service" name="service">
+                  <option>Comptabilité</option>
+                  <option>Fiscalité</option>
+                  <option>Conseil et création</option>
+                  <option>Paie et social</option>
+                  <option>Révision et contrôle</option>
+                  <option>Autre demande</option>
+                </select>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+            </div>
+
+            <div class="champ">
+              <label for="message">Votre message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Présentez brièvement votre besoin" aria-describedby="erreur-message" required></textarea>
+              <p class="champ__erreur" id="erreur-message" hidden></p>
+            </div>
+
+            <div class="champ champ--case">
+              <input type="checkbox" id="accord" name="accord" aria-describedby="erreur-accord" required>
+              <label for="accord">J'accepte d'être recontacté au sujet de ma demande</label>
+              <p class="champ__erreur" id="erreur-accord" hidden></p>
+            </div>
+
+            <button class="btn btn--bleu btn--large" type="submit">
+              Envoyer ma demande
+              <svg class="btn__fleche" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+
+            <p class="formulaire__note">Vos informations restent confidentielles et servent uniquement à traiter votre demande.</p>
+          </form>
+
+          <div class="confirmation" id="confirmation" hidden>
+            <span class="confirmation__rond" aria-hidden="true">
+              <svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24" fill="none"/><path d="M15 27l8 8 15-16" fill="none"/></svg>
+            </span>
+            <p class="confirmation__titre">Merci, votre message est prêt</p>
+            <p class="confirmation__texte">
+              Vérifiez WhatsApp pour confirmer l'envoi. Si rien ne s'est ouvert,
+              utilisez les liens proposés.
+            </p>
+            <div class="confirmation__liens">
+              <a class="btn btn--bleu" id="lien-whatsapp" href="https://wa.me/237690350260" target="_blank" rel="noopener">Ouvrir WhatsApp</a>
+              <a class="btn btn--fantome-bleu" id="lien-email" href="mailto:simeufossouoaubin@yahoo.fr">Envoyer par email</a>
+            </div>
+            <button class="confirmation__retour" type="button" id="nouveau-message">Écrire un autre message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== APPEL FINAL ==================== -->
+    <section class="appel">
+      <div class="page appel__inner">
+        <p class="script script--bleu" data-reveal>Un doute, une question ?</p>
+        <h2 class="titre" data-reveal style="--i:1">Écoutons votre besoin dès maintenant</h2>
+        <div class="appel__boutons" data-reveal style="--i:2">
+          <a class="btn btn--bleu" href="https://wa.me/237690350260?text=Bonjour%2C%20j%27aimerais%20un%20renseignement%20sur%20vos%20services." target="_blank" rel="noopener">
+            Écrire sur WhatsApp
+            <svg class="btn__fleche" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn--fantome-bleu" href="mailto:simeufossouoaubin@yahoo.fr">Envoyer un email</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pied">
+    <div class="page pied__inner">
+      <div class="pied__bloc pied__bloc--logo">
+        <a class="pied__plaque" href="#accueil" aria-label="Cabinet Fiduciaire de l'Ouest, accueil">
+          <img src="assets/logo-horizontal.svg" alt="Cabinet Fiduciaire de l'Ouest" width="660" height="165">
+        </a>
+        <p class="pied__baseline">Comptabilité · Fiscalité · Conseil</p>
+      </div>
+
+      <nav class="pied__bloc" aria-label="Plan du site">
+        <p class="pied__titre">Navigation</p>
+        <ul class="pied__liens">
+          <li><a href="#cabinet">Le cabinet</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#methode">Méthode</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="pied__bloc">
+        <p class="pied__titre">Coordonnées</p>
+        <ul class="pied__liens">
+          <li><a href="mailto:simeufossouoaubin@yahoo.fr">simeufossouoaubin@yahoo.fr</a></li>
+          <li><a href="https://wa.me/237690350260">690 35 02 60</a> · <a href="https://wa.me/237676357345">676 35 73 45</a></li>
+          <li>Bafoussam · Cameroun</li>
+          <li>Contribuable P089114582338C</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page pied__bas">
+      <p>© <span id="annee">2026</span> Cabinet Fiduciaire de l'Ouest. Tous droits réservés.</p>
+      <a class="pied__haut" href="#accueil">Retour en haut</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

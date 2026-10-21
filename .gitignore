@@ -1,0 +1,9 @@
+# Copie locale livrée (doublon du site) et son archive
+downloads/
+
+# Captures et scripts de vérification du navigateur
+.verif/
+
+# Journaux des serveurs de test
+server.log
+*.log
